@@ -1,0 +1,1556 @@
+Thread:
+1
+ExeStack:
+(  Ref(int) v1  ;  (  new(v1, 20)  ;  (  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )  )  )
+SymTable:
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v1
+(  new(v1, 20)  ;  (  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )  )
+SymTable:
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v1
+(  new(v1, 20)  ;  (  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )  )
+SymTable:
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v1, 20)  ;  (  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v1, 20)  ;  (  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+new(v1, 20)
+(  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+new(v1, 20)
+(  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  Ref(int) v2  ;  (  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v2
+(  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v2
+(  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v2, 30)  ;  (  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+new(v2, 30)
+(  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+new(v2, 30)
+(  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  newLock(x)  ;  (  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+newLock(x)
+(  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+newLock(x)
+(  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )
+SymTable:
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+
+
+Thread:
+1
+ExeStack:
+(  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+(  fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))  ;  (  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))
+(  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+fork ((  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  ))
+(  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+(  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+(  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+(  fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+(  fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))  ;  (  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))
+(  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))
+(  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+fork ((  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  ))
+(  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+fork ((  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  ))
+(  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+(  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+(  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+(  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+(  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+(  print(rH(v1))  ;  (  print(rH(v2))  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+(  lock(x)  ;  (  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+(  fork (wH(rH(v2)+1))  ;  (  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+(  lock(x)  ;  (  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+print(rH(v1))
+(  print(rH(v2))  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+lock(x)
+(  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+fork (wH(rH(v2)+1))
+(  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+lock(x)
+(  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+print(rH(v1))
+(  print(rH(v2))  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+lock(x)
+(  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+fork (wH(rH(v2)+1))
+(  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+lock(x)
+(  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : -1
+
+
+Thread:
+1
+ExeStack:
+(  print(rH(v2))  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+(  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v2)+1)
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+1
+ExeStack:
+(  print(rH(v2))  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  wH(rH(v1)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+(  wH(rH(v2)+1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  wH(rH(v1)-1)  ;  (  unlock(x)  ;    )  )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v2)+1)
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 30
+Locktable:
+1 : 11
+
+
+Thread:
+1
+ExeStack:
+print(rH(v2))
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v1)+1)
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+wH(rH(v2)+1)
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v1)-1)
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+1
+ExeStack:
+print(rH(v2))
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v1)+1)
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+wH(rH(v2)+1)
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v1)-1)
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 31
+Locktable:
+1 : 11
+
+
+Thread:
+1
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+1
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+(  unlock(x)  ;    )
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+1
+ExeStack:
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+unlock(x)
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+unlock(x)
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+unlock(x)
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+unlock(x)
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+21
+ExeStack:
+unlock(x)
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+unlock(x)
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : 11
+
+
+Thread:
+11
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+21
+ExeStack:
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
+Thread:
+11
+ExeStack:
+SymTable:
+x-->1
+v1-->( 1, int )
+v2-->( 2, int )
+Out:
+20
+31
+FileTable:
+Heap:
+1 : 20
+2 : 32
+Locktable:
+1 : -1
+
+
