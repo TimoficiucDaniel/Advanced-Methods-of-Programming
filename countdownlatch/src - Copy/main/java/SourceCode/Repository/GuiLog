@@ -1,0 +1,2898 @@
+Thread:
+1
+ExeStack:
+(  Ref(int) v1  ;  (  Ref(int) v2  ;  (  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )  )  )
+SymTable:
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v1
+(  Ref(int) v2  ;  (  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )  )
+SymTable:
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v1
+(  Ref(int) v2  ;  (  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )  )
+SymTable:
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  Ref(int) v2  ;  (  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  Ref(int) v2  ;  (  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v2
+(  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v2
+(  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  Ref(int) v3  ;  (  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v3
+(  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+Ref(int) v3
+(  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  int cnt  ;  (  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+int cnt
+(  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+int cnt
+(  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )
+SymTable:
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v1, 2)  ;  (  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+new(v1, 2)
+(  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+new(v1, 2)
+(  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 0, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v2, 3)  ;  (  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+new(v2, 3)
+(  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+new(v2, 3)
+(  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 0, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  new(v3, 4)  ;  (  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+new(v3, 4)
+(  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+new(v3, 4)
+(  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 0, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  newLatch(cnt,rH(v2))  ;  (  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+newLatch(cnt,rH(v2))
+(  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+newLatch(cnt,rH(v2))
+(  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )
+SymTable:
+cnt-->0
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+
+
+Thread:
+1
+ExeStack:
+(  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+(  fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))  ;  (  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))
+(  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+fork ((  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  ))
+(  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+(  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+(  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+(  await(cnt)  ;  (  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+(  wH(rH(v1)*10)  ;  (  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v1)*10)
+(  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+wH(rH(v1)*10)
+(  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 2
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+(  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+(  print(rH(v1))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+print(rH(v1))
+(  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+print(rH(v1))
+(  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+(  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+(  CountDown(cnt)  ;  fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+CountDown(cnt)
+fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+11
+ExeStack:
+CountDown(cnt)
+fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,3
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+11
+ExeStack:
+print(11)
+fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+11
+ExeStack:
+print(11)
+fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+11
+ExeStack:
+fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+11
+ExeStack:
+fork ((  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+11
+ExeStack:
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+(  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+(  wH(rH(v2)*10)  ;  (  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+wH(rH(v2)*10)
+(  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+wH(rH(v2)*10)
+(  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 3
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+(  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+(  print(rH(v2))  ;  (  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+print(rH(v2))
+(  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+print(rH(v2))
+(  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+(  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+(  CountDown(cnt)  ;  fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+CountDown(cnt)
+fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+21
+ExeStack:
+CountDown(cnt)
+fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,2
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+21
+ExeStack:
+print(21)
+fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+21
+ExeStack:
+print(21)
+fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+21
+ExeStack:
+fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+21
+ExeStack:
+fork ((  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  ))
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+21
+ExeStack:
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+(  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+(  wH(rH(v3)*10)  ;  (  print(rH(v3))  ;  CountDown(cnt)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+wH(rH(v3)*10)
+(  print(rH(v3))  ;  CountDown(cnt)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+wH(rH(v3)*10)
+(  print(rH(v3))  ;  CountDown(cnt)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 4
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+(  print(rH(v3))  ;  CountDown(cnt)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+(  print(rH(v3))  ;  CountDown(cnt)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+print(rH(v3))
+CountDown(cnt)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+print(rH(v3))
+CountDown(cnt)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+CountDown(cnt)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+31
+ExeStack:
+CountDown(cnt)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,1
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+31
+ExeStack:
+print(31)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+await(cnt)
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+31
+ExeStack:
+print(31)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+31
+ExeStack:
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+(  print(100)  ;  (  CountDown(cnt)  ;  print(100)  )  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+print(100)
+(  CountDown(cnt)  ;  print(100)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+print(100)
+(  CountDown(cnt)  ;  print(100)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+(  CountDown(cnt)  ;  print(100)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+(  CountDown(cnt)  ;  print(100)  )
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+CountDown(cnt)
+print(100)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+CountDown(cnt)
+print(100)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+print(1)
+print(100)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+print(1)
+print(100)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+print(100)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+1
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+print(100)
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+1
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
+Thread:
+1
+ExeStack:
+SymTable:
+cnt-->1
+v1-->( 1, int )
+v2-->( 2, int )
+v3-->( 3, int )
+Out:
+20
+11
+30
+21
+40
+31
+100
+1
+100
+FileTable:
+Heap:
+1 : 20
+2 : 30
+3 : 40
+LatchTable:
+1,0
+
+
